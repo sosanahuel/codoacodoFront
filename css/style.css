@@ -1,0 +1,77 @@
+* {
+ text-decoration: none;
+ list-style: none;
+ margin: 0;
+ padding: 0;
+}
+
+body{
+    background: white;
+}
+
+/*navegador*/
+.navbar-brand {
+    color: white;
+}
+
+.navbar-collapse {
+    flex-grow: 0;
+    align-items: end;
+}
+
+.navbar img {
+    width: 5rem;
+    height: 5rem;
+}
+
+.navbar ul li a {
+    color: grey;
+}
+
+/* ---TAMPOCO FUNCIONA EL HOVER CON STYLE EN HTML---
+
+#compraTicket {
+    color: green;
+}
+
+*/
+
+.navbar ul a:hover {
+    color: white;
+}
+
+/*mid*/
+
+.mid {
+    text-align: center;
+}
+
+.mid h6{
+    text-transform: uppercase;
+    color: gray;
+    margin-bottom: 0;
+    margin-top: 0.5rem;
+}
+/*Carrousel*/
+
+.carousel-caption {
+    text-align: end;
+    padding-bottom: 10rem;
+}
+
+.carousel-caption h5 {
+    font-weight: bolder;
+}
+
+.carousel-caption p {
+    font-weight: bolder;
+}
+
+
+
+
+
+
+
+
+/*oradores*/
