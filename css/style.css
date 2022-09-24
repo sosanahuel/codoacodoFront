@@ -62,7 +62,7 @@ body {
 }
 
 .carousel-inner img {
-    filter: brightness(65%);
+    filter: brightness(45%);
 }
 
 /*oradores*/
@@ -70,8 +70,68 @@ body {
 .row {
     padding-left: 10%;
     padding-right: 10%;
+    padding-bottom: 5rem;
 }
 
 .row h5 {
     margin: 0.4rem;
+}
+
+/*img doble*/
+
+.imgText{
+   display: flex;
+   background: #353a40;
+
+}
+
+.imgText .text {
+    color: white;
+    padding-left: 25px;
+}
+
+.imgText img {
+    width: 50%;
+    height: auto;
+}
+
+/*formulario*/
+
+.nombreA{
+    display: flex;
+    justify-content: center;
+}
+
+.form-floating {
+    width: 30%;
+    color: grey;
+}
+
+.hablar {
+    display: flex;
+    justify-content: center;
+}
+
+.hablar .form-floating {
+    width: 60%;
+}
+
+.formText2 p{
+    color: grey;
+    padding-left: 20%;
+}
+
+/*footer*/
+
+footer{
+    background-color: #1d4054;
+    margin-top: 1rem;
+}
+
+.nav-link {
+    color: white;
+}
+
+.nav-link a {
+    padding-left: 1rem;
 }
